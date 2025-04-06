@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "CommonJS",
+      "strict": true,
+      "typeRoots": ["./node_modules/@types", "./src/types"],
+      "esModuleInterop": true,
+      "outDir": "./dist",
+      "rootDir": "./",
+      "moduleResolution": "node",
+      "forceConsistentCasingInFileNames": true,
+      "types": ["node", "mocha"],
+    },
+    "include": ["src/**/*.ts", "src/types", "src/config/**/*.cjs", "src/migrations/**/*.cjs"],
+    "exclude": ["node_modules"]
+}
