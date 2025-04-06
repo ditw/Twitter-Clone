@@ -8,8 +8,6 @@ import userRoutes from './routes/user.route';
 import tweetRoutes from './routes/tweet.route';
 import { sequelize, connection } from "./database";
 import { setupAssociations } from "./models/Associations";
-import "./models/User";
-import "./models/Tweet"; 
 
 
 dotenv.config();
